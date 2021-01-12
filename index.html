@@ -1,0 +1,85 @@
+<!doctype html>
+<! -- 
+Abelica colour palette
+
+Each colour is 100%, 60% and 20%
+
+064287  PANTONE 280 (Dark Blue)
+6677AB	
+C2C6DF	
+00ADEE  PANTONE Process Cyan (Light Blue)
+41C8F4
+C7EBFC
+13EE	Black
+5F5959
+BDB8B9
+208C3E	Pantone 363 (Green)
+7CAF7A
+CEE0CC
+CFCBC6	Pantone Warm Grey 3 (Browny Grey)
+E1DEDC
+F5F4F3
+EC008D  Pantone Rubine Red (Pink)
+F387B7
+FBD5E5
+
+-->
+
+<html>
+	<head>
+	
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+	</head>
+	<body>
+	
+
+
+		<div class="reveal">
+			<div class="slides">
+
+				
+
+				<section data-markdown="test.md"
+						 data-separator="---"
+						 data-separator-vertical="----"
+						 data-separator-notes="^Note:"
+						 data-charset="iso-8859-15">
+					<!--
+						Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
+						For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
+					-->
+				</section>
+
+			</div>
+		</div>
+
+
+
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
