@@ -25,3 +25,8 @@ A paragraph with some text and a [link](http://hakim.se).
 ## Dinner
 	- Eat spaghetti
 	- Drink wine
+<<<<<<< HEAD:Test.md
+=======
+	
+---
+>>>>>>> 8896250cf7b81c3a4d8c6fd0e7d11095fc22a0ef:test.md
